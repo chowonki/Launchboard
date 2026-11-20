@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: 소스 가져오기
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 최신 Xcode 선택
         run: |
@@ -89,7 +89,7 @@ jobs:
 
       - name: 빌드 로그 보관 (실패 시)
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: build-log
           path: build-log.txt
