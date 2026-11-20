@@ -60,3 +60,11 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Launchboard
+build/
+DerivedData/
+build-log.txt
+*.xcuserstate
+.DS_Store
+__MACOSX/

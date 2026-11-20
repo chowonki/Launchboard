@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 관리자 권한이 필요한 앱을 Finder를 통해 휴지통으로 옮길 때 사용 (Hardened Runtime) -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+</dict>
+</plist>
